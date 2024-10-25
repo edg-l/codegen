@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 iced-x86 = { version = "1.21.0", features = ["code_asm", "db"] }
+internment = { version = "0.8.6", features = ["arc"] }
 object = { version = "0.36.5", features = ["write", "build"] }
+rug = "1.26.1"

@@ -59,7 +59,7 @@ pub fn build_object(program: &[u8]) {
 mod tests {
     use std::path::Path;
 
-    use crate::{assemble, linker::link_binary};
+    use crate::{assembler::assemble, linker::link_binary};
 
     use super::*;
 
