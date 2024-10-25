@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+iced-x86 = { version = "1.21.0", features = ["code_asm", "db"] }
 object = { version = "0.36.5", features = ["write", "build"] }
